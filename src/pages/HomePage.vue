@@ -1,9 +1,10 @@
 <template>
-  <div class="home flex-grow-1 d-flex flex-column align-items-center justify-content-center">
-    <img src="https://bcw.blob.core.windows.net/public/img/8600856373152463" alt="CodeWorks Logo">
-    <h1 class="my-5 bg-dark text-light p-3 rounded d-flex align-items-center">
-      <span class="mx-2 text-white">Vue 3 Starter</span>
-    </h1>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-10 m-auto">
+        <h3>Thinking What no one has thought while seeing what everyone one else is seeing.</h3>
+      </div>
+    </div>
   </div>
 </template>
 
