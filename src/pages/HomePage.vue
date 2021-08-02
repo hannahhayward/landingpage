@@ -1,7 +1,7 @@
 <template>
-  <div class="container-fluid">
+  <div class="container-fluid bg-white">
     <div class="row">
-      <div class="col-10 m-auto">
+      <div class="col-10 m-auto text-dark">
         <h3>Thinking What no one has thought while seeing what everyone one else is seeing.</h3>
       </div>
     </div>
