@@ -1,69 +1,41 @@
 <template>
   <div class="items bg-dark">
-    <div class="item active">
+    <div id="item" class="item active">
       <img src="http://via.placeholder.com/500x500">
     </div>
-    <div class=" item next">
+    <div id="item" class="item next">
       <img src="http://via.placeholder.com/500x500">
     </div>
-    <div class="item">
+    <div id="item" class="item">
       <img src="http://via.placeholder.com/500x500">
     </div>
-    <div class="item">
+    <div id="item" class="item">
       <img src="http://via.placeholder.com/500x500">
     </div>
-    <div class="item prev">
+    <div id="item" class="item prev">
       <img src="http://via.placeholder.com/500x500">
     </div>
     <div class="button-container">
-      <div class="button">
-        <i class="fas fa-angle-left" @click="gotoNext()"></i>
+      <div class="button" @click="gotoNext()">
+        <i class="fas fa-angle-left"></i>
       </div>
-      <div class="button">
-        <i class="fas fa-angle-right" @click="gotoNext()"></i>
+      <div class="button" @click="gotoNext()">
+        <i class="fas fa-angle-right"></i>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import { gotoNext, gotoPrev, gotoNum } from '../state'
 export default {
   setup() {
-    const state = {
-      slider: document.querySelector('.items'),
-      slides: document.querySelectorAll('.item'),
-      button: document.querySelectorAll('.button'),
-      current: 0,
-      prev: 4,
-      next: 1
-
-    }
     return {
-      state,
-      gotoNext() {
-        state.current < 4 ? this.gotoNum(state.current + 1) : this.gotoNum(0)
-        state.current > 0 ? this.gotoNum(state.current - 1) : this.gotoNum(state.slides.length - 1)
-      },
-      gotoNum(number) {
-        state.current = number
-        for (let i = 0; i < state.slides.length; i++) {
-          state.slides[i].classList.remove('active')
-          state.slides[i].classList.remove('prev')
-          state.slides[i].classList.remove('next')
-        }
-
-        if (state.next === 5) {
-          state.next = 0
-        }
-
-        if (state.prev === -1) {
-          state.prev = 4
-        }
-
-        state.slides[state.current].classList.add('active')
-        state.slides[state.prev].classList.add('prev')
-        state.slides[state.next].classList.add('next')
-      }
+      gotoNext,
+      gotoPrev,
+      gotoNum,
+      slides: document.querySelectorAll('.item'),
+      button: document.querySelectorAll('.button')
     }
   }
 }

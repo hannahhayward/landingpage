@@ -13,3 +13,4 @@ registerGlobalComponents(root)
 root
   .use(router)
   .mount('#app')
+// I will be creating a different pen with touch support but right // now I have no time for it due to school
