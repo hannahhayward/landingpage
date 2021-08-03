@@ -35,17 +35,17 @@ export const AppState = reactive({
   contacts: [
     {
       name: 'github',
-      logo: 'mdi-github',
+      logo: 'mdi mdi-github',
       link: 'https://github.com/hannahhayward'
     },
     {
       name: 'email',
-      logo: 'mdi-email',
+      logo: 'mdi mdi-email',
       link: 'hsquared@gmail.com'
     },
     {
       name: 'linkedin',
-      logo: 'mdi-linkedin',
+      logo: 'mdi mdi-linkedin',
       link: 'www.linkedin.com/in/hannahhayward97'
     }
   ]
