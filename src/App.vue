@@ -7,7 +7,7 @@
   </main>
   <footer>
     <div class="bg-dark text-light text-center p-4">
-      HELLO
+      <h3>test</h3>
     </div>
   </footer>
 </template>

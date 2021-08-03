@@ -5,6 +5,9 @@
         <h3>Thinking What no one has thought while seeing what everyone one else is seeing.</h3>
       </div>
     </div>
+    <div class="row">
+      <Carousel />
+    </div>
   </div>
 </template>
 
@@ -23,4 +26,5 @@ export default {
     width: 200px;
   }
 }
+
 </style>
