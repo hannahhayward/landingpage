@@ -2,6 +2,8 @@
 import 'jquery'
 import 'popper.js'
 import { createApp } from 'vue'
+import '@mdi/js'
+import '@mdi/font/css/materialdesignicons.css'
 // @ts-ignore
 import App from './App.vue'
 import { registerGlobalComponents } from './registerGlobalComponents'

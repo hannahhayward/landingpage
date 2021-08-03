@@ -10,15 +10,36 @@
     <div class="row logo-fade d-flex justify-content-center">
       <div class="col-2"></div>
       <div class="col-10 m-auto logo">
+        Hello
+      </div>
+    </div>
+    <div class="row about">
+      <div class="col-10 m-auto">
+        <AboutMe />
+      </div>
+    </div>
+    <div class="row portfolio">
+      <div class="col-10 m-auto">
         <Portfolio />
+      </div>
+    </div>
+    <div class="row contacts">
+      <div class="col-10 m-auto">
+        <Contacts v-for="c in contacts" :key="c.name" :contact="c" />
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import { AppState } from '../AppState'
 export default {
-  name: 'Home'
+  name: 'Home',
+  setup() {
+    return {
+      contacts: AppState.contacts
+    }
+  }
 }
 </script>
 
@@ -36,7 +57,7 @@ export default {
   }
   .logo{
     background-image: url(https://i.pinimg.com/564x/54/31/19/543119b9b3349e24439be761f44812d5.jpg);
-    height: 40rem;
+    height: 10rem;
     background-repeat: no-repeat;
   }
   .logo-fade {
