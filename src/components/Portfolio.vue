@@ -7,7 +7,7 @@
       <Applications v-for="a in apps" :key="a.name" :app="a" />
     </div>
     <div class="row">
-      <Collabs v-for="c in collabs" :key="c.name" :collabs="c" />
+      <Collabs v-for="c in collabs" :key="c.name" :collab="c" />
     </div>
   </div>
 </template>
