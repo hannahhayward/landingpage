@@ -1,5 +1,5 @@
-// import 'bootstrap'
 import 'jquery'
+import 'bootstrap'
 import 'popper.js'
 import { createApp } from 'vue'
 import '@mdi/js'

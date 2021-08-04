@@ -6,8 +6,8 @@
       </h3>
     </div>
   </div>
-  <div class="row text-center">
-    <div class="col-8">
+  <div class="row ">
+    <div class="col-8 text-center">
       <p>little about myself</p>
       <p>im funny sometimes but most of the time i accidentally offend people</p>
     </div>
