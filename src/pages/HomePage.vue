@@ -18,15 +18,16 @@
         <AboutMe />
       </div>
     </div>
+    <div class="row">
+      <Tech v-for="t in technology" :key="t.name" :tech="t" />
+    </div>
     <div class="row portfolio">
       <div class="col-10 m-auto">
         <Portfolio />
       </div>
     </div>
     <div class="row contacts">
-      <div class="col-10 m-auto">
-        <Contacts v-for="c in contacts" :key="c.name" :contact="c" />
-      </div>
+      <Contacts v-for="c in contacts" :key="c.name" :contact="c" />
     </div>
   </div>
 </template>
@@ -37,7 +38,8 @@ export default {
   name: 'Home',
   setup() {
     return {
-      contacts: AppState.contacts
+      contacts: AppState.contacts,
+      technology: AppState.technologies
     }
   }
 }
