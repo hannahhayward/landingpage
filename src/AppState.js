@@ -58,49 +58,5 @@ export const AppState = reactive({
       logo: 'mdi mdi-linkedin',
       link: 'www.linkedin.com/in/hannahhayward97'
     }
-  ],
-  technologies: [{
-    name: 'javascript',
-    img: 'https://mpng.subpng.com/20180810/biz/kisspng-javascript-scalable-vector-graphics-logo-encapsula-javascript-le-ekran-grnts-almak-alpere-5b6dbeb48e4583.2854840415339189005828.jpg'
-  },
-  {
-    name: 'css',
-    img: 'https://cdn.freebiesupply.com/logos/large/2x/css3-logo-png-transparent.png'
-  },
-  {
-    name: 'html',
-    img: 'https://i.stack.imgur.com/PgcSR.png'
-  },
-  {
-    name: 'vue',
-    img: 'http://assets.stickpng.com/thumbs/58482acecef1014c0b5e4a1e.png'
-  },
-  {
-    name: 'node',
-    img: 'https://w7.pngwing.com/pngs/611/356/png-transparent-node-js-javascript-express-js-angularjs-random-icons-text-logo-number-thumbnail.png'
-  },
-  {
-    name: 'csharp',
-    img: 'https://cis.msjc.edu/Tutorials/Programming/Languages/Csharp/images/Csharp_logo.png'
-  },
-  {
-    name: 'mongo',
-    img: 'https://w1.pngwing.com/pngs/104/466/png-transparent-mongodb-logo-database-nosql-postgresql-mysql-green-text-line.png'
-  },
-  {
-    name: 'mysql',
-    img: 'https://spng.subpng.com/20181204/trz/kisspng-mysql-database-insert-table-mysql-png-logos-free-download-5c064d0c6fb466.1460181915439168124576.jpg'
-  },
-  {
-    name: 'bootstrap',
-    img: 'https://image.emojipng.com/884/12100884.jpg'
-  },
-  {
-    name: 'dotnet',
-    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/1200px-.NET_Core_Logo.svg.png'
-  },
-  {
-    name: 'auth0',
-    img: 'https://iconape.com/wp-content/files/zi/33774/svg/auth0.svg'
-  }]
+  ]
 })

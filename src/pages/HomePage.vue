@@ -9,20 +9,21 @@
   <div class="container-fluid">
     <div class="row logo-fade d-flex justify-content-center">
       <div class="col-2"></div>
-      <div class="col-10 m-auto logo">
-        Hello
+      <div class="col-11 m-auto ">
+        <img src="../assets/img/black_logo_sml.jpeg" alt="logo" class="logo">
       </div>
     </div>
+    <img src="../assets/img/vue.png" alt="">
     <div class="row about">
-      <div class="col-10 m-auto py-5">
+      <div class="col-11 m-auto py-5">
         <AboutMe />
       </div>
     </div>
     <div class="row">
-      <Tech v-for="t in technology" :key="t.name" :tech="t" />
+      <Tech />
     </div>
     <div class="row portfolio">
-      <div class="col-10 m-auto py-5">
+      <div class="col-11 m-auto py-5">
         <Portfolio />
       </div>
     </div>
@@ -58,10 +59,9 @@ export default {
     background-color: #010001;
   }
   .logo{
-    background-image: url(https://i.pinimg.com/564x/54/31/19/543119b9b3349e24439be761f44812d5.jpg);
-    height: 10rem;
-    background-repeat: no-repeat;
-  }
+    height: 34rem;
+    width: 81rem;
+object-fit: none;  }
   .logo-fade {
     background-color: #ffffff;
   }
