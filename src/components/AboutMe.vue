@@ -7,7 +7,7 @@
     </div>
   </div>
   <div class="row ">
-    <div class="col-8 text-center">
+    <div class="col-10 m-auto text-center">
       <p>little about myself</p>
       <p>im funny sometimes but most of the time i accidentally offend people</p>
     </div>

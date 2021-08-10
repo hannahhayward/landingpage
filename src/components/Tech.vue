@@ -1,5 +1,5 @@
 <template>
-  <div class="col-2">
+  <div class="col-4">
     <img :src="tech.img" :alt="tech.name" class="h-50 w-50">
   </div>
 </template>
