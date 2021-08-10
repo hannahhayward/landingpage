@@ -4,35 +4,35 @@
   </div> -->
   <div class="slider">
     <div class="slide-track">
-      <div class="slide">
-        <img src="../assets/img/.net.png" height="100" width="250" alt="dotnet" />
+      <div class="slide col-1 px-3 ">
+        <img class="d-flex align-items-center img" src="../assets/img/.net.png" alt="dotnet" />
       </div>
-      <div class="slide">
-        <img src="../assets/img/bootstrap.jpg" height="100" width="250" alt="boot" />
+      <div class="slide col-1">
+        <img class="d-flex align-items-center img" src="../assets/img/bootstrap.jpg" alt="boot" />
       </div>
-      <div class="slide">
-        <img src="../assets/img/csharp.png" height="100" width="250" alt="csharp" />
+      <div class="slide col-1">
+        <img class="d-flex align-items-center img" src="../assets/img/csharp.png" alt="csharp" />
       </div>
-      <div class="slide">
-        <img src="../assets/img/css.png" height="100" width="250" alt="css" />
+      <div class="slide col-1">
+        <img class="d-flex align-items-center img" src="../assets/img/css.png" alt="css" />
       </div>
-      <div class="slide">
-        <img src="../assets/img/html.png" height="100" width="250" alt="html" />
+      <div class="slide col-1">
+        <img class="d-flex align-items-center img" src="../assets/img/html.png" alt="html" />
       </div>
-      <div class="slide">
-        <img src="../assets/img/js.jpg" height="100" width="250" alt="js" />
+      <div class="slide col-1">
+        <img class="d-flex align-items-center img" src="../assets/img/js.jpg" alt="js" />
       </div>
-      <div class="slide">
-        <img src="../assets/img/mongo.png" height="100" width="250" alt="mongo" />
+      <div class="slide col-1">
+        <img class="d-flex align-items-center img" src="../assets/img/mongo.png" alt="mongo" />
       </div>
-      <div class="slide">
-        <img src="../assets/img/node.png" height="100" width="250" alt="node" />
+      <div class="slide col-1">
+        <img class="d-flex align-items-center img" src="../assets/img/node.png" alt="node" />
       </div>
-      <div class="slide">
-        <img src="../assets/img/sql.jpg" height="100" width="250" alt="sql" />
+      <div class="slide col-1">
+        <img class="d-flex align-items-center img" src="../assets/img/sql.jpg" alt="sql" />
       </div>
-      <div class="slide">
-        <img src="../assets/img/vue.png" height="100" width="250" alt="vue" />
+      <div class="slide col-1">
+        <img class="d-flex align-items-center img" src="../assets/img/vue.png" alt="vue" />
       </div>
     </div>
   </div>
@@ -49,6 +49,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.img{
+  height: 10rem;
+  width: 10rem;
+}
 body {
 align-items: center;
 background: #E3E3E3;
@@ -66,14 +70,14 @@ $animationSpeed: 40s;
 // Animation
 @keyframes scroll {
 0% { transform: translateX(0); }
-100% { transform: translateX(calc(-250px * 7))}
+100% { transform: translateX(calc(-10rem * 7))}
 }
 
 // Styling
 .slider {
 background: white;
 box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
-height: 100px;
+height: 15rem;
 margin: auto;
 overflow:hidden;
 position: relative;
@@ -83,9 +87,9 @@ width: 960px;
 &::after {
 @include white-gradient;
 content: "";
-height: 100px;
+height: 15rem;
 position: absolute;
-width: 200px;
+width: 0rem;
 z-index: 2;
 }
 
@@ -103,12 +107,12 @@ top: 0;
 .slide-track {
 animation: scroll $animationSpeed linear infinite;
 display: flex;
-width: calc(250px * 14);
+width: calc(10rem * 14);
 }
 
 .slide {
-height: 100px;
-width: 250px;
+height: 15rem;
+width: 10rem;
 }
 }
 </style>

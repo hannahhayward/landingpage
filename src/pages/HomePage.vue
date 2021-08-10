@@ -13,7 +13,6 @@
         <img src="../assets/img/black_logo_sml.jpeg" alt="logo" class="logo">
       </div>
     </div>
-    <img src="../assets/img/vue.png" alt="">
     <div class="row about">
       <div class="col-11 m-auto py-5">
         <AboutMe />
