@@ -6,8 +6,9 @@
       </div>
       <card class="footer">
         <h5>{{ collab.name }}</h5>
-        <p>description</p>
+        <p>{{ collab.description }}</p>
         <i>{{ collab.type }}</i>
+        <p><i>{{ collab.tech }}</i></p>
       </card>
     </div>
   </div>
