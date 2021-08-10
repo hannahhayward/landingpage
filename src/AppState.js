@@ -55,7 +55,7 @@ export const AppState = reactive({
   },
   {
     name: 'css',
-    img: 'https://e7.pngegg.com/pngimages/757/795/png-clipart-cascading-style-sheets-html-website-development-web-design-web-design-blue-angle.png'
+    img: 'https://cdn.freebiesupply.com/logos/large/2x/css3-logo-png-transparent.png'
   },
   {
     name: 'html',
@@ -63,11 +63,11 @@ export const AppState = reactive({
   },
   {
     name: 'vue',
-    img: 'https://spng.subpng.com/20180718/zqt/kisspng-vue-js-javascript-library-angularjs-react-vue-js-5b4ebe1b93c716.7614705815318871316053.jpg'
+    img: 'http://assets.stickpng.com/thumbs/58482acecef1014c0b5e4a1e.png'
   },
   {
     name: 'node',
-    img: 'https://w7.pngwing.com/pngs/322/725/png-transparent-node-js-javascript-npm-express-js-sharp-miscellaneous-angle-text.png'
+    img: 'https://w7.pngwing.com/pngs/611/356/png-transparent-node-js-javascript-express-js-angularjs-random-icons-text-logo-number-thumbnail.png'
   },
   {
     name: 'csharp',
@@ -83,7 +83,7 @@ export const AppState = reactive({
   },
   {
     name: 'bootstrap',
-    img: 'https://toppng.com/uploads/preview/bootstrap-featured-image-bootstrap-3-logo-11563293130teouf93qpu.png'
+    img: 'https://image.emojipng.com/884/12100884.jpg'
   },
   {
     name: 'dotnet',
