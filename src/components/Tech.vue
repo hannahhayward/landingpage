@@ -81,7 +81,7 @@ height: 15rem;
 margin: auto;
 overflow:hidden;
 position: relative;
-width: 960px;
+width: 76rem;
 
 &::before,
 &::after {

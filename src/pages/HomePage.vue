@@ -6,12 +6,13 @@
       </video>
     </div>
   </div>
-  <div class="container-fluid">
-    <div class="row logo-fade d-flex justify-content-center">
-      <div class="col-2"></div>
-      <div class="col-11 m-auto ">
-        <img src="../assets/img/black_logo_sml.jpeg" alt="logo" class="logo">
+  <div class="container-fluid ">
+    <div class="row d-flex justify-content-center ">
+      <div class="col-2 "></div>
+      <div class="col-8 text-center">
+        <img src="../assets/img/bluelogopng.png" alt="logo" class="logo fade-in-image text-center">
       </div>
+      <div class="col-2"></div>
     </div>
     <div class="row about">
       <div class="col-11 m-auto py-5">
@@ -54,13 +55,43 @@ export default {
     width: 200px;
   }
 }
+.fade-in-image {
+  animation: fadeIn 10s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
   .bg {
-    background-color: #010001;
+    background-color: black;
   }
   .logo{
-    height: 34rem;
-    width: 81rem;
-object-fit: none;  }
+    height: 39rem;
+    object-fit: contain;  }
   .logo-fade {
     background-color: #ffffff;
   }
