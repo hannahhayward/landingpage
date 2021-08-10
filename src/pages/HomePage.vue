@@ -14,7 +14,7 @@
       </div>
     </div>
     <div class="row about">
-      <div class="col-10 m-auto">
+      <div class="col-10 m-auto py-5">
         <AboutMe />
       </div>
     </div>
@@ -22,11 +22,11 @@
       <Tech v-for="t in technology" :key="t.name" :tech="t" />
     </div>
     <div class="row portfolio">
-      <div class="col-10 m-auto">
+      <div class="col-10 m-auto py-5">
         <Portfolio />
       </div>
     </div>
-    <div class="row contacts">
+    <div class="row contacts d-flex justify-content-around">
       <Contacts v-for="c in contacts" :key="c.name" :contact="c" />
     </div>
   </div>

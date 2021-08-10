@@ -1,7 +1,8 @@
 <template>
   <div class="col-2">
-    <i :class="contact.logo"></i>
-    is this showing up
+    <p class="text">
+      <i :class="contact.logo"></i>
+    </p>
   </div>
 </template>
 
@@ -14,6 +15,8 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+.text{
+  font-size: 10rem;
+}
 </style>

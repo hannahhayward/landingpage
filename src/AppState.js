@@ -29,7 +29,7 @@ export const AppState = reactive({
   collaborations: [
     {
       name: 'Hogout',
-      img: 'https://github.com/EricWakeman/hogout/blob/master/hogout.client/src/assets/img/hogoutTitle.png',
+      img: 'https://raw.githubusercontent.com/dhildeb/hogout/master/hogout.client/src/assets/img/hogoutTitle.png',
       type: 'social platform',
       description: 'Collaborated with a team of four to develop a full stack social networking platform.',
       tech: 'JavaScript ES6, Vue3, CSS, HTML5, Bootstrap, MongoDB, Node.js & .NET'
