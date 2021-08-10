@@ -1,37 +1,34 @@
 <template>
-  <!-- <div class="col-3 text-center">
-    <img :src="tech.img" :alt="tech.name" class="h-50 w-50">
-  </div> -->
   <div class="slider">
-    <div class="slide-track">
-      <div class="slide col-1 px-3 ">
+    <div class="slide-track mt-3">
+      <div class="slide col-1 mt-3 ">
         <img class="d-flex align-items-center img" src="../assets/img/.net.png" alt="dotnet" />
       </div>
-      <div class="slide col-1">
+      <div class="slide col-1 mt-3">
         <img class="d-flex align-items-center img" src="../assets/img/bootstrap.jpg" alt="boot" />
       </div>
-      <div class="slide col-1">
+      <div class="slide col-1 mt-3">
         <img class="d-flex align-items-center img" src="../assets/img/csharp.png" alt="csharp" />
       </div>
-      <div class="slide col-1">
+      <div class="slide col-1 mt-3">
         <img class="d-flex align-items-center img" src="../assets/img/css.png" alt="css" />
       </div>
-      <div class="slide col-1">
+      <div class="slide col-1 mt-3">
         <img class="d-flex align-items-center img" src="../assets/img/html.png" alt="html" />
       </div>
-      <div class="slide col-1">
+      <div class="slide col-1 mt-3">
         <img class="d-flex align-items-center img" src="../assets/img/js.jpg" alt="js" />
       </div>
-      <div class="slide col-1">
+      <div class="slide col-1 mt-3">
         <img class="d-flex align-items-center img" src="../assets/img/mongo.png" alt="mongo" />
       </div>
-      <div class="slide col-1">
+      <div class="slide col-1 mt-3">
         <img class="d-flex align-items-center img" src="../assets/img/node.png" alt="node" />
       </div>
-      <div class="slide col-1">
+      <div class="slide col-1 mt-3">
         <img class="d-flex align-items-center img" src="../assets/img/sql.jpg" alt="sql" />
       </div>
-      <div class="slide col-1">
+      <div class="slide col-1 mt-3">
         <img class="d-flex align-items-center img" src="../assets/img/vue.png" alt="vue" />
       </div>
     </div>

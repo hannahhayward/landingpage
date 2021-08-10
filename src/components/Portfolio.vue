@@ -5,7 +5,7 @@
     </div>
   </div>
   <div class="row py-2">
-    <Applications v-for="a in apps" :key="a.name" :app="a" />
+    <Applications />
   </div>
   <div class="row py-5">
     <div class="col-10 m-auto">
@@ -15,7 +15,7 @@
     </div>
   </div>
   <div class="row py-2">
-    <Collabs v-for="c in collabs" :key="c.name" :collab="c" />
+    <Collabs />
   </div>
 </template>
 

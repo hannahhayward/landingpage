@@ -1,17 +1,5 @@
 <template>
-  <div class="col-6 py-3">
-    <div class="card bg-dark app">
-      <div class="card-body text-center">
-        <img :src="collab.img" alt="collabPic" class="h-50 w-50">
-      </div>
-      <card class="footer text-center">
-        <h5>{{ collab.name }}</h5>
-        <p>{{ collab.description }}</p>
-        <i>{{ collab.type }}</i>
-        <p><i>{{ collab.tech }}</i></p>
-      </card>
-    </div>
-  </div>
+  d
 </template>
 
 <script>

@@ -4,28 +4,6 @@ import { reactive } from 'vue'
 export const AppState = reactive({
   user: {},
   account: {},
-  projects: [
-    {
-      name: 'Keeper',
-      img: 'https://images-platform.99static.com/IPG0oX6KOQrFeVzKkgcRibkpqF4=/157x157:1417x1417/500x500/top/smart/99designs-contests-attachments/115/115998/attachment_115998183',
-      type: 'social networking application',
-      description: 'A full stack social networking platform',
-      tech: 'HTML5, CSS, Vue3, Bootstrap, JavaScript ES6, C#, MySQL & .NET'
-    },
-    {
-      name: 'The Network',
-      img: 'https://e7.pngegg.com/pngimages/524/455/png-clipart-computer-icons-mesh-networking-share-icon-others-miscellaneous-computer-network.png',
-      type: 'social networking platform',
-      description: 'A full stack social networking platform',
-      tech: 'HTML5, JavaScript ES6, Vue3, CSS, Node.js, Bootstrap, MongoDB & .NET'
-    },
-    {
-      name: 'Bug Log',
-      img: 'https://www.pinclipart.com/picdir/middle/499-4998717_ants-on-a-log-clipart-png-download.png',
-      type: 'tracking application',
-      description: 'A full stack forum application to solve and track software bugs.',
-      tech: 'HTML5, JavaScript ES6, CSS, Vue3, Node.js, MongoDB, Bootstrap & .NET'
-    }],
   collaborations: [
     {
       name: 'Hogout',
