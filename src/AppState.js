@@ -4,22 +4,6 @@ import { reactive } from 'vue'
 export const AppState = reactive({
   user: {},
   account: {},
-  collaborations: [
-    {
-      name: 'Hogout',
-      img: 'https://raw.githubusercontent.com/dhildeb/hogout/master/hogout.client/src/assets/img/hogoutTitle.png',
-      type: 'social platform',
-      description: 'Collaborated with a team of four to develop a full stack social networking platform.',
-      tech: 'JavaScript ES6, Vue3, CSS, HTML5, Bootstrap, MongoDB, Node.js & .NET'
-    },
-    {
-      name: 'KanBan',
-      img: 'https://github.com/wyattDockstader/kanban/blob/master/kanban%20logo.png?raw=true',
-      type: 'project management application',
-      description: 'Collaborated with a partner developer to develop a full stack KanBan board application.',
-      tech: 'JavaScript ES6, Vue3, CSS, HTML5, Bootstrap, MongoDB, Node.js & .NET'
-    }
-  ],
   contacts: [
     {
       name: 'github',

@@ -43,7 +43,8 @@
   </div>
   <div class="card mb-3">
     <div class="row no-gutters">
-      <div class="col-md-8 bug">
+      <div class="col-md-8 ">
+        <img src="../assets/img/bug.png" class="bug" alt="">
       </div>
       <div class="col-md-4 ">
         <div class="card-body">
@@ -96,11 +97,9 @@ export default {
   background-repeat: no-repeat;
 }
 .bug{
-  background-image: url("../assets/img/buglog.png");
-  height: 38rem;
-  width: 53rem;
+  height: 24rem;
+  width: 42rem;
   object-fit: cover;
-  background-repeat: no-repeat;
 }
 .app:hover{
   transform: scale(1.1);
