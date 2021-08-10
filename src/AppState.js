@@ -17,14 +17,14 @@ export const AppState = reactive({
       img: 'https://e7.pngegg.com/pngimages/524/455/png-clipart-computer-icons-mesh-networking-share-icon-others-miscellaneous-computer-network.png',
       type: 'social networking platform',
       description: 'A full stack social networking platform',
-      tech: 'HTML5, JavaScript ES6, Vue3, CSS, Node.js, Bootstrap & .NET'
+      tech: 'HTML5, JavaScript ES6, Vue3, CSS, Node.js, Bootstrap, MongoDB & .NET'
     },
     {
       name: 'Bug Log',
       img: 'https://www.pinclipart.com/picdir/middle/499-4998717_ants-on-a-log-clipart-png-download.png',
       type: 'tracking application',
       description: 'A full stack forum application to solve and track software bugs.',
-      tech: 'HTML5, JavaScript ES6, CSS, Vue3, Node.js, Bootstrap & .NET'
+      tech: 'HTML5, JavaScript ES6, CSS, Vue3, Node.js, MongoDB, Bootstrap & .NET'
     }],
   collaborations: [
     {
@@ -32,14 +32,14 @@ export const AppState = reactive({
       img: 'https://github.com/EricWakeman/hogout/blob/master/hogout.client/src/assets/img/hogoutTitle.png',
       type: 'social platform',
       description: 'Collaborated with a team of four to develop a full stack social networking platform.',
-      tech: 'JavaScript ES6, Vue3, CSS, HTML5, Bootstrap, Node.js & .NET'
+      tech: 'JavaScript ES6, Vue3, CSS, HTML5, Bootstrap, MongoDB, Node.js & .NET'
     },
     {
       name: 'KanBan',
       img: 'https://github.com/wyattDockstader/kanban/blob/master/kanban%20logo.png?raw=true',
       type: 'project management application',
       description: 'Collaborated with a partner developer to develop a full stack KanBan board application.',
-      tech: 'JavaScript ES6, Vue3, CSS, HTML5, Bootstrap, Node.js & .NET'
+      tech: 'JavaScript ES6, Vue3, CSS, HTML5, Bootstrap, MongoDB, Node.js & .NET'
     }
   ],
   contacts: [
