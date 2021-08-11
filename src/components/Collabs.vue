@@ -2,8 +2,8 @@
   <div class="col-10 m-auto py-3 ">
     <div class="card mb-3">
       <div class="row no-gutters">
-        <div class="col-md-8 text-center ">
-          <img src="../assets/img/hogout.png" class="hog" alt="">
+        <div class="col-md-8 text-left ">
+          <img src="../assets/img/hogout.png" class="hog" alt="hogout">
         </div>
         <div class="col-md-4">
           <div class="card-body text-right">
@@ -25,7 +25,7 @@
     <div class="card mb-3">
       <div class="row no-gutters">
         <div class="col-md-4">
-          <div class="card-body text-right">
+          <div class="card-body text-left">
             <h5 class="card-title">
               KanBan
             </h5>
@@ -37,7 +37,8 @@
             </p>
           </div>
         </div>
-        <div class="col-md-8 kan">
+        <div class="col-md-4 text-right">
+          <img src="../assets/img/kanban.png" alt="kanban" class="kan">
         </div>
       </div>
     </div>
@@ -59,14 +60,12 @@ export default {
 }
 .hog{
  height: 20rem;
- width: 38rem;
+ width: 30rem;
 }
 .kan{
-  background-image: url("../assets/img/kanban.png");
-  height: 31rem;
-  width: 27rem;
-  object-fit: cover;
-  background-repeat: no-repeat;
+  object-fit: contain;
+  height: 20rem;
+  width: 30rem;
 }
 .app:hover{
   transform: scale(1.1);

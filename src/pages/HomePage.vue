@@ -20,7 +20,9 @@
       </div>
     </div>
     <div class="row">
-      <Tech />
+      <div class="col-10 m-auto">
+        <Tech />
+      </div>
     </div>
     <div class="row portfolio">
       <div class="col-11 m-auto py-5">
