@@ -38,7 +38,7 @@
           </div>
         </div>
         <div class="col-md-4 text-right">
-          <img src="../assets/img/kanban.png" alt="kanban" class="kan">
+          <img src="../assets/img/kanban.png" alt="kanban" class="kan text-right">
         </div>
       </div>
     </div>

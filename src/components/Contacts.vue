@@ -1,7 +1,17 @@
 <template>
   <div class="col-2">
     <button class="btn btn-dark rounded-circle site text w-75">
-      <i :class="contact.logo"></i>
+      <i class="mdi mdi-github"></i>
+    </button>
+  </div>
+  <div class="col-2">
+    <button class="btn btn-dark rounded-circle site text w-75">
+      <i class="mdi mdi-email"></i>
+    </button>
+  </div>
+  <div class="col-2">
+    <button class="btn btn-dark rounded-circle site text w-75">
+      <i class="mdi mdi-linkedin"></i>
     </button>
   </div>
 </template>

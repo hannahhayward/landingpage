@@ -30,7 +30,7 @@
       </div>
     </div>
     <div class="row contacts d-flex justify-content-around">
-      <Contacts v-for="c in contacts" :key="c.name" :contact="c" />
+      <Contacts />
     </div>
   </div>
 </template>
