@@ -1,6 +1,6 @@
 <template>
   <div class="col-10 m-auto py-3 ">
-    <div class="card mb-3">
+    <div class="card app mb-3">
       <div class="row no-gutters">
         <div class="col-md-8 text-left keeper">
           <img src="../assets/img/keeper.jfif" alt="keeper" class="keeper">
@@ -22,7 +22,7 @@
     </div>
   </div>
   <div class="col-10 m-auto py-3 ">
-    <div class="card mb-3">
+    <div class="card app mb-3">
       <div class="row no-gutters">
         <div class="col-md-4">
           <div class="card-body">
@@ -44,7 +44,7 @@
     </div>
   </div>
   <div class="col-10 m-auto py-3 ">
-    <div class="card mb-3">
+    <div class="card app mb-3">
       <div class="row no-gutters">
         <div class="col-md-8 text-left">
           <img src="../assets/img/buglog.png" class="bug" alt="">
